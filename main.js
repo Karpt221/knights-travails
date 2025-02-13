@@ -94,7 +94,7 @@ function getAdjacentVertices(x, y) {
   return adjacentVertices;
 }
 
-let routeData = knightMoves([3, 3], [7, 0]);
+let routeData = knightMoves([3, 3], [4, 3]);
 
 console.log(`You made it in ${routeData.len} moves! Here's your path:`);
 for (const vertex of routeData.route) {
